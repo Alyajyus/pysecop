@@ -96,11 +96,11 @@ cal_fin.pack()
 update_button = tk.Button(root, text="Actualizar", command=actualizar_tabla)
 update_button.pack()
 
-url1 = 'https://www.datos.gov.co/resource/jbjy-vk9h.json'
+url1 = 'http://www.datos.gov.co/resource/jbjy-vk9h.json'
 params1 = {}
 columnas1 = ["nombre_entidad", "nit_entidad", "departamento", "ciudad", "descripcion_del_proceso", "fecha_de_firma", "valor_del_contrato", "urlproceso", "origen"]
 
-url2 = 'https://www.datos.gov.co/resource/f789-7hwg.json'
+url2 = 'http://www.datos.gov.co/resource/f789-7hwg.json'
 params2 = {}
 columnas2 = ["nombre_entidad", "nit_de_la_entidad", "departamento_entidad", "municipio_entidad", "detalle_del_objeto_a_contratar", "fecha_de_firma_del_contrato", "cuantia_contrato", "ruta_proceso_en_secop_i", "origen"]
 
